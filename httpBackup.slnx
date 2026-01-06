@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="httpBackupCore/httpBackupCore.csproj" />
+  <Project Path="httpBackupTray/httpBackupTray.csproj" />
+  <Project Path="httpBackupWorker/httpBackupWorker.csproj" />
+</Solution>
