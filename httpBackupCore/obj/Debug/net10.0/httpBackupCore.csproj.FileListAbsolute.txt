@@ -1,0 +1,12 @@
+C:\VSCodeProjects\httpBackup\httpBackupCore\bin\Debug\net10.0\httpBackupCore.deps.json
+C:\VSCodeProjects\httpBackup\httpBackupCore\bin\Debug\net10.0\httpBackupCore.dll
+C:\VSCodeProjects\httpBackup\httpBackupCore\bin\Debug\net10.0\httpBackupCore.pdb
+C:\VSCodeProjects\httpBackup\httpBackupCore\obj\Debug\net10.0\httpBackupCore.GeneratedMSBuildEditorConfig.editorconfig
+C:\VSCodeProjects\httpBackup\httpBackupCore\obj\Debug\net10.0\httpBackupCore.AssemblyInfoInputs.cache
+C:\VSCodeProjects\httpBackup\httpBackupCore\obj\Debug\net10.0\httpBackupCore.AssemblyInfo.cs
+C:\VSCodeProjects\httpBackup\httpBackupCore\obj\Debug\net10.0\httpBackupCore.csproj.CoreCompileInputs.cache
+C:\VSCodeProjects\httpBackup\httpBackupCore\obj\Debug\net10.0\httpBackupCore.sourcelink.json
+C:\VSCodeProjects\httpBackup\httpBackupCore\obj\Debug\net10.0\httpBackupCore.dll
+C:\VSCodeProjects\httpBackup\httpBackupCore\obj\Debug\net10.0\refint\httpBackupCore.dll
+C:\VSCodeProjects\httpBackup\httpBackupCore\obj\Debug\net10.0\httpBackupCore.pdb
+C:\VSCodeProjects\httpBackup\httpBackupCore\obj\Debug\net10.0\ref\httpBackupCore.dll
