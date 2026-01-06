@@ -6,7 +6,7 @@ namespace httpBackupCore;
 
 public static class ConfigStore
 {
-    private const string CompanyFolder = "HttpBackup";
+    private const string CompanyFolder = "httpBackup";
     private const string ConfigFileName = "config.json";
 
     public static string GetConfigPath()

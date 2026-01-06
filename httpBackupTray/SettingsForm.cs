@@ -24,7 +24,7 @@ public sealed class SettingsForm : Form
 
     public SettingsForm()
     {
-        Text = "HttpBackup Settings";
+        Text = "httpBackup Settings";
         StartPosition = FormStartPosition.CenterScreen;
         Width = 900;
         Height = 600;
@@ -227,7 +227,7 @@ public sealed class SettingsForm : Form
         var selected = GetSelectedSite();
         if (selected is null) return;
 
-        var res = MessageBox.Show($"Remove '{selected.Name}'?", "HttpBackup", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
+        var res = MessageBox.Show($"Remove '{selected.Name}'?", "httpBackup", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
         if (res == DialogResult.Yes)
             _sitesBinding.Remove(selected);
     }
@@ -239,13 +239,13 @@ public sealed class SettingsForm : Form
 
         if (interval < 1)
         {
-            MessageBox.Show("Interval must be at least 1 minute.", "HttpBackup", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            MessageBox.Show("Interval must be at least 1 minute.", "httpBackup", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             return;
         }
 
         if (string.IsNullOrWhiteSpace(folder))
         {
-            MessageBox.Show("Backup folder is required.", "HttpBackup", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            MessageBox.Show("Backup folder is required.", "httpBackup", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             return;
         }
 
@@ -254,19 +254,19 @@ public sealed class SettingsForm : Form
         {
             if (string.IsNullOrWhiteSpace(s.Name))
             {
-                MessageBox.Show("Each site must have a Name (prefix).", "HttpBackup", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                MessageBox.Show("Each site must have a Name (prefix).", "httpBackup", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return;
             }
 
             if (!Uri.TryCreate(s.Url, UriKind.Absolute, out var uri) || (uri.Scheme != "http" && uri.Scheme != "https"))
             {
-                MessageBox.Show($"Invalid URL for site '{s.Name}': {s.Url}", "HttpBackup", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                MessageBox.Show($"Invalid URL for site '{s.Name}': {s.Url}", "httpBackup", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return;
             }
 
             if (HasInvalidFileNameChars(s.Name))
             {
-                MessageBox.Show($"Site name contains invalid filename characters: {s.Name}", "HttpBackup", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                MessageBox.Show($"Site name contains invalid filename characters: {s.Name}", "httpBackup", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return;
             }
         }
@@ -278,12 +278,12 @@ public sealed class SettingsForm : Form
         try
         {
             ConfigStore.Save(_config);
-            MessageBox.Show("Saved!", "HttpBackup", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            MessageBox.Show("Saved!", "httpBackup", MessageBoxButtons.OK, MessageBoxIcon.Information);
             Close();
         }
         catch (Exception ex)
         {
-            MessageBox.Show($"Save failed:\n{ex.Message}", "HttpBackup", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            MessageBox.Show($"Save failed:\n{ex.Message}", "httpBackup", MessageBoxButtons.OK, MessageBoxIcon.Error);
         }
     }
 

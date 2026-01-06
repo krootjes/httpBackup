@@ -6,7 +6,7 @@ namespace httpBackupCore;
 public sealed class AppConfig
 {
     public int IntervalMinutes { get; set; } = 60;
-    public string BackupFolder { get; set; } = @"C:\Backups\HttpBackup";
+    public string BackupFolder { get; set; } = @"C:\Backups\httpBackup";
     public List<BackupSite> Sites { get; set; } = new();
 }
 

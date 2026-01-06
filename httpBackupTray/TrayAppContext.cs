@@ -29,7 +29,7 @@ public sealed class TrayAppContext : ApplicationContext
 
         _notifyIcon = new NotifyIcon
         {
-            Text = "HttpBackup",
+            Text = "httpBackup",
             ContextMenuStrip = menu,
             Visible = true,
             Icon = SystemIcons.Application
@@ -59,7 +59,7 @@ public sealed class TrayAppContext : ApplicationContext
         // Placeholder: later laat je dit de worker/service triggeren
         _notifyIcon.ShowBalloonTip(
             timeout: 1500,
-            tipTitle: "HttpBackup",
+            tipTitle: "httpBackup",
             tipText: "Run now is not implemented yet (only tray/UI done).",
             tipIcon: ToolTipIcon.Info);
     }
@@ -78,7 +78,7 @@ public sealed class TrayAppContext : ApplicationContext
         }
         catch (Exception ex)
         {
-            MessageBox.Show($"Could not open folder:\n{ex.Message}", "HttpBackup", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            MessageBox.Show($"Could not open folder:\n{ex.Message}", "httpBackup", MessageBoxButtons.OK, MessageBoxIcon.Error);
         }
     }
 
