@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("httpBackupCore")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+78b509558b591da87fc9681e1fe6a9b3d17377a2")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5af5a908b8d83688fd6a29ba6eb6f26fe29815c5")]
 [assembly: System.Reflection.AssemblyProductAttribute("httpBackupCore")]
 [assembly: System.Reflection.AssemblyTitleAttribute("httpBackupCore")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

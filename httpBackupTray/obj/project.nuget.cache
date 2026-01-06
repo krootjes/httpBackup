@@ -1,8 +1,23 @@
 {
   "version": 2,
-  "dgSpecHash": "vl87pScw9pg=",
+  "dgSpecHash": "4Ec8LNdAMQU=",
   "success": true,
   "projectFilePath": "C:\\VSCodeProjects\\httpBackup\\httpBackupTray\\httpBackupTray.csproj",
-  "expectedPackageFiles": [],
-  "logs": []
+  "expectedPackageFiles": [
+    "C:\\Users\\daan.blokpoel\\.nuget\\packages\\system.text.json\\10.0.1\\system.text.json.10.0.1.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1510",
+      "level": "Warning",
+      "message": "PackageReference System.Text.Json will not be pruned. Consider removing this package from your dependencies, as it is likely unnecessary.",
+      "projectPath": "C:\\VSCodeProjects\\httpBackup\\httpBackupTray\\httpBackupTray.csproj",
+      "warningLevel": 1,
+      "filePath": "C:\\VSCodeProjects\\httpBackup\\httpBackupTray\\httpBackupTray.csproj",
+      "libraryId": "System.Text.Json",
+      "targetGraphs": [
+        "net10.0-windows7.0"
+      ]
+    }
+  ]
 }
