@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "4Ec8LNdAMQU=",
+  "dgSpecHash": "YMTf3srvVkg=",
   "success": true,
   "projectFilePath": "C:\\VSCodeProjects\\httpBackup\\httpBackupTray\\httpBackupTray.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\daan.blokpoel\\.nuget\\packages\\system.text.json\\10.0.1\\system.text.json.10.0.1.nupkg.sha512"
+    "C:\\Users\\daan\\.nuget\\packages\\system.text.json\\10.0.1\\system.text.json.10.0.1.nupkg.sha512"
   ],
   "logs": [
     {

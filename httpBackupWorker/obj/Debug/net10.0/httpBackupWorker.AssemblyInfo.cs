@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("httpBackupWorker")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a2b386c079998fbf1f93a76d4a8861d7c40761bc")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+04d4649124c0cbf785a3fbcaddb1afa65a6d31fc")]
 [assembly: System.Reflection.AssemblyProductAttribute("httpBackupWorker")]
 [assembly: System.Reflection.AssemblyTitleAttribute("httpBackupWorker")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

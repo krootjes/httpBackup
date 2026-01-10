@@ -116,7 +116,7 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\daan.blokpoel\\.nuget\\packages\\": {}
+    "C:\\Users\\daan\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
@@ -124,16 +124,18 @@
       "projectUniqueName": "C:\\VSCodeProjects\\httpBackup\\httpBackupTray\\httpBackupTray.csproj",
       "projectName": "httpBackupTray",
       "projectPath": "C:\\VSCodeProjects\\httpBackup\\httpBackupTray\\httpBackupTray.csproj",
-      "packagesPath": "C:\\Users\\daan.blokpoel\\.nuget\\packages\\",
+      "packagesPath": "C:\\Users\\daan\\.nuget\\packages\\",
       "outputPath": "C:\\VSCodeProjects\\httpBackup\\httpBackupTray\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\daan.blokpoel\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\daan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net10.0-windows"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
