@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("httpBackupTray")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6724b1f36418983e0dfd20e5bb661d1deb11dd4d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+080b7d4a28e761d7fe66745d7b57856669e25768")]
 [assembly: System.Reflection.AssemblyProductAttribute("httpBackupTray")]
 [assembly: System.Reflection.AssemblyTitleAttribute("httpBackupTray")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
